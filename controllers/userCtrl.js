@@ -36,13 +36,13 @@ const loginController = async (req, res) => {
     if (!user) {
       return res
         .status(200)
-        .send({ message: "user not found", success: false });
+        .send({ message: "User Not Found", success: false });
     }
     const isMatch = await bcrypt.compare(req.body.password, user.password);
     if (!isMatch) {
       return res
         .status(200)
-        .send({ message: "Invlid EMail or Password", success: false });
+        .send({ message: "Invalid Email or Password", success: false });
     }
     const token = jwt.sign({ id: user._id }, process.env.JWT_SECRET, {
       expiresIn: "1d",
@@ -105,7 +105,7 @@ const applyDoctorController = async (req, res) => {
     res.status(500).send({
       success: false,
       error,
-      message: "Error WHile Applying For Doctotr",
+      message: "Error While Applying For Doctotr",
     });
   }
 };
