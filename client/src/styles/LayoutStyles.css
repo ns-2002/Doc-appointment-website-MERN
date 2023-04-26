@@ -23,6 +23,15 @@
   background-position: center center;
   background-size: cover;
 }
+
+#layout3{
+  width: 100%;
+  height:634px;
+  background-image: url("../assets/applydoc.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
 .sidebar {
   min-height: 100%;
   width: 300px;

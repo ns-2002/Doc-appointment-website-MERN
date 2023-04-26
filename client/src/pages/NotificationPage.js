@@ -6,6 +6,7 @@ import { showLoading, hideLoading } from "../redux/features/alertSlice";
 import { useNavigate } from "react-router-dom";
 import axios from "axios";
 
+
 const NotificationPage = () => {
   const dispatch = useDispatch();
   const navigate = useNavigate();
