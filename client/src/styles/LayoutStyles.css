@@ -1,11 +1,28 @@
 .main {
   padding: 10px;
   height: 100vh;
+  
 }
 .layout {
   display: flex;
 }
 
+#layout{
+  width: 100%;
+  height:634px;
+  background-image: url("../assets/sign.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+#layout2{
+  width: 100%;
+  height:634px;
+  background-image: url("../assets/appointments.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
 .sidebar {
   min-height: 100%;
   width: 300px;

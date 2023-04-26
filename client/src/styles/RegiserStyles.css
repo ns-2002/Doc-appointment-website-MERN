@@ -3,6 +3,10 @@
   align-items: center;
   justify-content: center;
   height: 100vh;
+  background-image: url("../assets/sign.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
 }
 
 .register-form {
